@@ -1,4 +1,6 @@
 #!/usr/bin/python3
-  
-  str = "object-oriented progamming with python"
-    print(str)
+str = "Python is an interpreted, interactive, object-oriented programming\
+ language that combines remarkable power with very clear syntax"
+index = str.find("object-oriented programming")
+print(str[index:])
+
